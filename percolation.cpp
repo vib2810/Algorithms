@@ -3,7 +3,7 @@
 #include <time.h>   
 using namespace std;
 int n=100;
-int rep=100000;
+int rep=1000;
 int isvalid(int x,int y)
 {
 	if(x>=0 && y>=0 && x< n && y< n) return 1;
